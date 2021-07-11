@@ -30,7 +30,7 @@ function start() {
     buttons.hidden = false;
     begin.hidden = true;
     seconds = 120;
-    createCards(10);
+    createCards(8);
     timer();
 }
 function createCards(count) {
@@ -125,7 +125,7 @@ function check(types, countCards, CardId) {
                 cardsWithoutChecked[0].classList.remove('is-flipped');
                 cardsWithoutChecked[1].classList.remove('is-flipped');
                 timer.style.color = 'black';
-            }, 1000);
+            }, 500);
         }
     }
 }

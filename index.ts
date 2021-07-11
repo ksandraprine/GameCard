@@ -50,7 +50,7 @@ function start(): void{
 
     seconds = 120;
 
-    createCards(10);
+    createCards(8);
     timer();    
 }
 
@@ -158,7 +158,7 @@ function check(types: Card[], countCards: number, CardId: number): void {
                 cardsWithoutChecked[0].classList.remove('is-flipped');
                 cardsWithoutChecked[1].classList.remove('is-flipped');
                 timer.style.color = 'black';
-            }, 1000);
+            }, 500);
         }
     }
     
